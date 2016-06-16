@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8857C8851D123427001ACC73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857C8841D123427001ACC73 /* main.m */; };
+		8857C8881D123427001ACC73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857C8871D123427001ACC73 /* AppDelegate.m */; };
+		8857C88B1D123427001ACC73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857C88A1D123427001ACC73 /* ViewController.m */; };
+		8857C88E1D123427001ACC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8857C88C1D123427001ACC73 /* Main.storyboard */; };
+		8857C8901D123427001ACC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8857C88F1D123427001ACC73 /* Assets.xcassets */; };
+		8857C8931D123427001ACC73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8857C8911D123427001ACC73 /* LaunchScreen.storyboard */; };
+		8857C89E1D123427001ACC73 /* FJFSpeechRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857C89D1D123427001ACC73 /* FJFSpeechRTests.m */; };
+		8857C8A91D123427001ACC73 /* FJFSpeechRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857C8A81D123427001ACC73 /* FJFSpeechRUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8857C89A1D123427001ACC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8857C8781D123427001ACC73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8857C87F1D123427001ACC73;
+			remoteInfo = FJFSpeechR;
+		};
+		8857C8A51D123427001ACC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8857C8781D123427001ACC73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8857C87F1D123427001ACC73;
+			remoteInfo = FJFSpeechR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8857C8801D123427001ACC73 /* FJFSpeechR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFSpeechR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857C8841D123427001ACC73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8857C8861D123427001ACC73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8857C8871D123427001ACC73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8857C8891D123427001ACC73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8857C88A1D123427001ACC73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8857C88D1D123427001ACC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8857C88F1D123427001ACC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8857C8921D123427001ACC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8857C8941D123427001ACC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8857C8991D123427001ACC73 /* FJFSpeechRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFSpeechRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857C89D1D123427001ACC73 /* FJFSpeechRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFSpeechRTests.m; sourceTree = "<group>"; };
+		8857C89F1D123427001ACC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8857C8A41D123427001ACC73 /* FJFSpeechRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFSpeechRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857C8A81D123427001ACC73 /* FJFSpeechRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFSpeechRUITests.m; sourceTree = "<group>"; };
+		8857C8AA1D123427001ACC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8857C87D1D123427001ACC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8961D123427001ACC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8A11D123427001ACC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8857C8771D123427001ACC73 = {
+			isa = PBXGroup;
+			children = (
+				8857C8821D123427001ACC73 /* FJFSpeechR */,
+				8857C89C1D123427001ACC73 /* FJFSpeechRTests */,
+				8857C8A71D123427001ACC73 /* FJFSpeechRUITests */,
+				8857C8811D123427001ACC73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8857C8811D123427001ACC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8857C8801D123427001ACC73 /* FJFSpeechR.app */,
+				8857C8991D123427001ACC73 /* FJFSpeechRTests.xctest */,
+				8857C8A41D123427001ACC73 /* FJFSpeechRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8857C8821D123427001ACC73 /* FJFSpeechR */ = {
+			isa = PBXGroup;
+			children = (
+				8857C8861D123427001ACC73 /* AppDelegate.h */,
+				8857C8871D123427001ACC73 /* AppDelegate.m */,
+				8857C8891D123427001ACC73 /* ViewController.h */,
+				8857C88A1D123427001ACC73 /* ViewController.m */,
+				8857C88C1D123427001ACC73 /* Main.storyboard */,
+				8857C88F1D123427001ACC73 /* Assets.xcassets */,
+				8857C8911D123427001ACC73 /* LaunchScreen.storyboard */,
+				8857C8941D123427001ACC73 /* Info.plist */,
+				8857C8831D123427001ACC73 /* Supporting Files */,
+			);
+			path = FJFSpeechR;
+			sourceTree = "<group>";
+		};
+		8857C8831D123427001ACC73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8857C8841D123427001ACC73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8857C89C1D123427001ACC73 /* FJFSpeechRTests */ = {
+			isa = PBXGroup;
+			children = (
+				8857C89D1D123427001ACC73 /* FJFSpeechRTests.m */,
+				8857C89F1D123427001ACC73 /* Info.plist */,
+			);
+			path = FJFSpeechRTests;
+			sourceTree = "<group>";
+		};
+		8857C8A71D123427001ACC73 /* FJFSpeechRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8857C8A81D123427001ACC73 /* FJFSpeechRUITests.m */,
+				8857C8AA1D123427001ACC73 /* Info.plist */,
+			);
+			path = FJFSpeechRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8857C87F1D123427001ACC73 /* FJFSpeechR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8857C8AD1D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechR" */;
+			buildPhases = (
+				8857C87C1D123427001ACC73 /* Sources */,
+				8857C87D1D123427001ACC73 /* Frameworks */,
+				8857C87E1D123427001ACC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFSpeechR;
+			productName = FJFSpeechR;
+			productReference = 8857C8801D123427001ACC73 /* FJFSpeechR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8857C8981D123427001ACC73 /* FJFSpeechRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8857C8B01D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechRTests" */;
+			buildPhases = (
+				8857C8951D123427001ACC73 /* Sources */,
+				8857C8961D123427001ACC73 /* Frameworks */,
+				8857C8971D123427001ACC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8857C89B1D123427001ACC73 /* PBXTargetDependency */,
+			);
+			name = FJFSpeechRTests;
+			productName = FJFSpeechRTests;
+			productReference = 8857C8991D123427001ACC73 /* FJFSpeechRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8857C8A31D123427001ACC73 /* FJFSpeechRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8857C8B31D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechRUITests" */;
+			buildPhases = (
+				8857C8A01D123427001ACC73 /* Sources */,
+				8857C8A11D123427001ACC73 /* Frameworks */,
+				8857C8A21D123427001ACC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8857C8A61D123427001ACC73 /* PBXTargetDependency */,
+			);
+			name = FJFSpeechRUITests;
+			productName = FJFSpeechRUITests;
+			productReference = 8857C8A41D123427001ACC73 /* FJFSpeechRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8857C8781D123427001ACC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FJF;
+				TargetAttributes = {
+					8857C87F1D123427001ACC73 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8857C8981D123427001ACC73 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8857C87F1D123427001ACC73;
+					};
+					8857C8A31D123427001ACC73 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8857C87F1D123427001ACC73;
+					};
+				};
+			};
+			buildConfigurationList = 8857C87B1D123427001ACC73 /* Build configuration list for PBXProject "FJFSpeechR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8857C8771D123427001ACC73;
+			productRefGroup = 8857C8811D123427001ACC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8857C87F1D123427001ACC73 /* FJFSpeechR */,
+				8857C8981D123427001ACC73 /* FJFSpeechRTests */,
+				8857C8A31D123427001ACC73 /* FJFSpeechRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8857C87E1D123427001ACC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857C8931D123427001ACC73 /* LaunchScreen.storyboard in Resources */,
+				8857C8901D123427001ACC73 /* Assets.xcassets in Resources */,
+				8857C88E1D123427001ACC73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8971D123427001ACC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8A21D123427001ACC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8857C87C1D123427001ACC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857C88B1D123427001ACC73 /* ViewController.m in Sources */,
+				8857C8881D123427001ACC73 /* AppDelegate.m in Sources */,
+				8857C8851D123427001ACC73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8951D123427001ACC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857C89E1D123427001ACC73 /* FJFSpeechRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857C8A01D123427001ACC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857C8A91D123427001ACC73 /* FJFSpeechRUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8857C89B1D123427001ACC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8857C87F1D123427001ACC73 /* FJFSpeechR */;
+			targetProxy = 8857C89A1D123427001ACC73 /* PBXContainerItemProxy */;
+		};
+		8857C8A61D123427001ACC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8857C87F1D123427001ACC73 /* FJFSpeechR */;
+			targetProxy = 8857C8A51D123427001ACC73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8857C88C1D123427001ACC73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8857C88D1D123427001ACC73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8857C8911D123427001ACC73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8857C8921D123427001ACC73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8857C8AB1D123427001ACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8857C8AC1D123427001ACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8857C8AE1D123427001ACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FJFSpeechR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8857C8AF1D123427001ACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FJFSpeechR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8857C8B11D123427001ACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FJFSpeechRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFSpeechR.app/FJFSpeechR";
+			};
+			name = Debug;
+		};
+		8857C8B21D123427001ACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FJFSpeechRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFSpeechR.app/FJFSpeechR";
+			};
+			name = Release;
+		};
+		8857C8B41D123427001ACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FJFSpeechRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJFSpeechR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8857C8B51D123427001ACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FJFSpeechRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fjf.FJFSpeechRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJFSpeechR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8857C87B1D123427001ACC73 /* Build configuration list for PBXProject "FJFSpeechR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857C8AB1D123427001ACC73 /* Debug */,
+				8857C8AC1D123427001ACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8857C8AD1D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857C8AE1D123427001ACC73 /* Debug */,
+				8857C8AF1D123427001ACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8857C8B01D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857C8B11D123427001ACC73 /* Debug */,
+				8857C8B21D123427001ACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8857C8B31D123427001ACC73 /* Build configuration list for PBXNativeTarget "FJFSpeechRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857C8B41D123427001ACC73 /* Debug */,
+				8857C8B51D123427001ACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8857C8781D123427001ACC73 /* Project object */;
+}
